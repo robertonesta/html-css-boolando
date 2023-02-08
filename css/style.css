@@ -22,6 +22,7 @@
 header{
     position: fixed;
     width: 100%;
+    z-index: 1;
 }
 
 .banner{
@@ -51,20 +52,16 @@ header{
     height: 1rem;
 }
 
-.co
-
 
 /* main */
-
 
 .row{
     display: flex;
     flex-wrap: wrap;
-    width: 100%;
 }
 
 .col4{
-    width: calc((100% / 12) * 4);
+    width: calc(100% / 3);
     padding: 0.5rem;
 }
 
@@ -72,15 +69,17 @@ header{
     position: relative;
     background-color: #eeeeee;
 }
+.img{
+    width: 100%;
+}
 
 .heart{
-    background-color: white;
-    width: auto;
     position: absolute;
-    right: 0;
+    background-color: white;
     top: 5%;
-    padding: 2px;
-}
+    right:0%
+} 
+
 .sales{
     background-color: red;
     color: white;
@@ -96,8 +95,18 @@ header{
     display: inline-block;
     position: absolute;
     bottom: 15%;
-    left: 12%;
+    left: 7%;
     padding: 2px;
 }
+
+.price{
+    color: red;
+}
+
+.original_price{
+    color: grey;
+}
+
+
 
 
