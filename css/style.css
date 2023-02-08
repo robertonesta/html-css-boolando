@@ -2,5 +2,102 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
+    font-family: Helvetica, Arial, sans-serif;
 }
+
+.d-flex{
+    display: flex;
+}
+
+.container{
+    width: 70%;
+    width: 1152px;
+    margin: auto;
+}
+
+/* endregion utility */
+
+/* header */
+header{
+    position: fixed;
+    width: 100%;
+}
+
+.banner{
+    justify-content: space-between;
+    background-color: #ff6900;
+    padding: 0.5rem;
+    text-align: center;
+    color: white;
+}
+.customers > a{
+    color: white;
+    height: 1rem;
+    background-color: #ff6900;
+}
+.logo{
+    background-color: #ff6900;
+}
+.symbols{
+    background-color: #ff6900;
+}
+.boolean{
+    height: 1rem;
+}
+
+.symbols a{
+    color: white;
+    height: 1rem;
+}
+
+.co
+
+
+/* main */
+
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.col4{
+    width: calc((100% / 12) * 4);
+    padding: 0.5rem;
+}
+
+.card{
+    position: relative;
+    background-color: #eeeeee;
+}
+
+.heart{
+    background-color: white;
+    width: auto;
+    position: absolute;
+    right: 0;
+    top: 5%;
+    padding: 2px;
+}
+.sales{
+    background-color: red;
+    color: white;
+    display: inline-block;
+    position: absolute;
+    bottom: 15%;
+    padding: 2px;
+}
+
+.sustainability{
+    background-color: green;
+    color: white;
+    display: inline-block;
+    position: absolute;
+    bottom: 15%;
+    left: 12%;
+    padding: 2px;
+}
+
 
